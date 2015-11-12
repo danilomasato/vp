@@ -545,6 +545,7 @@ Nav
 	}
 
 	#header>.center>.full { height: 50px; }
+
 	#logo {
 		float: none;
 		position: relative;
@@ -560,7 +561,11 @@ Nav
 		display: none;
 		width: 100%; 
 		height: auto;
-		margin: 10px 0 20px 0;
+		margin: -35px 0 20px 0 !important;
+		position: absolute;
+	    z-index: 9999;
+	    background: #482B14;
+	    padding: 60px 0 53px 0;
 	}
 
 	#nav > ul > li { width: 100%; clear: both; box-sizing: border-box; }

@@ -1,41 +1,37 @@
- var Carousel = {
-      init: function() {
-          var t = this;
-          t.services();
-          t.bind();
-      },
+var Carousel = {
+    init: function() {
+        var t = this;
+        t.services(), 
+        t.bind()
+    },
+    services: function() {
+        // $.getJSON("http://private-fe2a-scuptel.apiary-mock.com/ddd/details", function(data) {
 
-      services: function() {
+        //       data = data.data;
 
-          $('.spritespin').spritespin({
-            source: 'assets/img/bike6x6_big.jpg',
-            width: 480,
-            height: 327,
-            frames: 34,
-            framesX: 6,
-            sense: -1,
-            renderer: 'image'
-          });
+        //       for(var i=0; i <= data.length; i++) {
+        //         $ddd = data[i].ddd;
+        //         $city = data[i].city;
 
-      },
+        //           $table = $("#tableDDD");
+        //           $line = $("<tr><td width='30'>"+$ddd+"</td><td>"+$city+"</td></tr>");
+        //           $table.append($line);
+        //       };
 
+        //       $table.find("tr").on("click", function() {
+               
+        //       });
+        //   });
+    },
     bind: function() {
-      if($(window).width() <= 768){
-        $("#header").on("click", function(){
-          $nav = $("#nav");
-          $nav.slideToggle().toggleClass("active");
-          $headerFull = $("#header>.center>.full");
-          $headerFull.css({ "height":"auto" });
-
-          if(!$nav.hasClass("active")){
-            $headerFull.animate({ "height":"50px" });
-          }
+        $(".btnMobile").on("click", function() {
+            $nav = $("#nav"), 
+            $nav.slideToggle().toggleClass("active");
+            // $headerFull = $("#header>.center>.full");
+            // if($nav.hasClass("active")){
+            //   $headerFull.css({"height":"auto"});
+            // } 
         });
-      }
-      
-    }//bind
-
-  }; //Carousel
-
-
-  Carousel.init();  
+    }
+};
+Carousel.init();
