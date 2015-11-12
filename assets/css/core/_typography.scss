@@ -1,0 +1,58 @@
+/*a:visited, a:link { color: #1b2c49 !important; }*/
+/*****************************************************************************************************
+************************ FONTS CLASSES & TIPOGRAFIA **************************************************
+*****************************************************************************************************/
+@font-face {
+  font-family: 'goon';
+   src: url('fonts/amaticsc-regular-webfont.eot');
+    src: url('fonts/amaticsc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/amaticsc-regular-webfont.woff2') format('woff2'),
+         url('fonts/amaticsc-regular-webfont.woff') format('woff'),
+         url('fonts/amaticsc-regular-webfont.ttf') format('truetype'),
+         url('fonts/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+  /*-webkit-font-smoothing: antialiased;*/
+  font-smooth: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+@font-face {
+  font-family: 'gon';
+    src: url('fonts/goon-webfont.eot');
+    src: url('fonts/goon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/goon-webfont.woff2') format('woff2'),
+         url('fonts/goon-webfont.woff') format('woff'),
+         url('fonts/goon-webfont.ttf') format('truetype'),
+         url('fonts/goon-webfont.svg#goonregular') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: subpixel-antialiased;
+}
+
+.title {
+	color: #2d2d2d;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font: bold 18px/20px "dinRegular", Arial;
+}
+
+.subtitles {
+	color: #6d7681;
+	font: normal 19px/normal "bmw", arial !important;
+	font: normal 19px/normal "bmw", arial\0/ !important;
+}
+
+.text {
+  color: #6d7681;
+  font: normal 16px/19px "bmw", Helvetica, Arial, sans-serif;
+}
+
+.description {
+  descript: #666666;
+  font: normal 12px/17px "Arial", Helvetica, Arial, sans-serif;
+}

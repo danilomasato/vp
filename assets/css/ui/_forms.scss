@@ -1,0 +1,153 @@
+/***
+Forms
+***/
+.required{
+  color: #d66e12;
+  font: normal 12px/20px "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.form textarea, 
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="datetime"],
+.form input[type="datetime-local"],
+.form input[type="date"],
+.form input[type="month"],
+.form input[type="time"],
+.form input[type="week"],
+.form input[type="number"],
+.form input[type="email"],
+.form input[type="url"],
+.form input[type="search"],
+.form input[type="tel"],
+.form input[type="color"],
+.form select { 
+	width: 100%;
+	color: #666;
+	outline: none;
+	height: 45px;
+	padding: 0 0 0 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #ccc;
+	font: normal 16px/35px "dinRegular", Arial;
+}
+
+.form-login input[type="text"],.form-login input[type="password"]{ padding: 0 0 0 30px; }
+
+.form label { 
+	float: left; 
+	padding: 5px 0px; 
+	margin-top: 10px; 
+
+	color: #666;
+	font:normal 14px/19px "Arial", Helvetica, Arial, sans-serif;
+}
+
+.form textarea { height: 80px; }
+.form input:focus { border: 1px solid #245490; }
+.required { color: #f00;}
+
+.form input[type=checkbox].css-checkbox,
+.form input[type=radio].css-checkbox {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-size: 13px;
+	line-height: 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+.form input[type=radio],
+.form input[type=checkbox] {
+	display: none !important;
+}
+
+.form input[type=checkbox].css-checkbox + label.css-label, 
+.form input[type=radio].css-checkbox + label.css-labelRadio  {
+	padding-left:20px;
+	height:5px; 
+	display:inline-block;
+	line-height: 6px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.form input[type=checkbox].css-checkbox:checked + label.css-label,
+.form input[type=radio].css-checkbox:checked + label.css-labelRadio {
+	background-position: 0 -15px;
+}
+
+.css-label{
+	background-image: url('../images/lite-green-check.png');
+}
+
+.css-labelRadio{
+	background-image: url('../images/lite-green-radio.png');
+}
+
+.form .checkbox {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-size: 13px;
+	line-height: 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+.form .checkbox:before {
+	content: "";
+	display: inline-block;
+
+	width: 16px;
+	height: 16px;
+
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	border-radius: 3px;
+	background-color: #617180;
+	box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+/*.form label { float: left; padding: 8px 0px 4px 0px; }*/
+
+.form .radio label:before {
+	border-radius: 8px;
+}
+.form .checkbox label {
+	margin-bottom: 10px;
+}
+.form .checkbox label:before {
+    border-radius: 3px;
+}
+
+.form textarea { height: 80px; }
+.wrapper-alert { float: left; clear: both; }
+.required {
+	float: left;
+	padding: 4px 10px;
+	color: #2b2b2b;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border-color: #fceb77;
+	background: #fff6bf url(../img/form-ic-warning.png) no-repeat 12px 23px;
+}
+
+.form-newsletter input[type="text"]{ border: 1px solid #ccc; }

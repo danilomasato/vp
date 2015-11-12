@@ -1,0 +1,13 @@
+/*---- BORDAS -------------------------------*/
+.radius{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/***
+Moz Prefix
+***/
+@-moz-document url-prefix(){
+	
+} 
