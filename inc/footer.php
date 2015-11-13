@@ -4,7 +4,8 @@
 		<div class="full fleft cboth">
 			<div id="logoFooter">
 				<a href="default.html">
-					<img src="assets/img/spacer.png" alt=""></a>
+					<img src="assets/img/spacer.png" alt="">
+				</a>
 			</div>
 
 			<nav id="navFooter">

@@ -25,7 +25,9 @@
 					<!-- spacer -->
 					
 					<ul class="thumbs noMargin">
-						<li class="noMargin"><img src="assets/img/afazenda.jpg" height="159" width="980" alt=""></li>
+						<li class="noMargin">
+							<img src="assets/img/afazenda.jpg" height="159" width="980" alt="">		
+						</li>
 					</ul>
 					<!-- thumbs -->
 				</div>
@@ -39,7 +41,8 @@
 					</div> 
 					<!-- spacer -->
 					
-					<img src="assets/img/tour360.jpg" height="276" width="447" alt="">
+					<!-- <img src="assets/img/tour360.jpg" height="276" width="447" alt=""> -->
+					<iframe src="assets/360/1.html" width="607" height="450"></iframe>	
 					
 					<div class="right">
 						<h2> Faca um tour 360 pela fazenda</h2>

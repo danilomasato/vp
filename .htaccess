@@ -1,5 +1,11 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
- 
-  RewriteRule ^historia/?$ /historia.php [NC,L]
+
+  # Página de contato
+  RewriteRule ^home/?$ /valedaspalmeiras/web/index.php [NC,L]
+  RewriteRule ^historia/?$ /valedaspalmeiras/web/historia.php [NC,L]
+  RewriteRule ^fazenda/?$ /valedaspalmeiras/web/fazenda.php [NC,L]
+  RewriteRule ^armazen/?$ /valedaspalmeiras/web/armazen.php [NC,L]
+  # Página de exibição de um produto
+  RewriteRule ^produtos/([a-z0-9-]+)/([0-9]+)/?$ /produtos.php?id=$2&nome=$1 [NC]
 </IfModule>

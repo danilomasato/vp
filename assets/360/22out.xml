@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama>
+<!-- Pano2VR 3.1.3 panorama configuration -->
+<view fovmode="0">
+<start pan="8.1" tilt="-0.5" fov="95"/>
+<min pan="0" tilt="-90" fov="40"/>
+<max pan="360" tilt="90" fov="120"/>
+</view>
+<autorotate speed="0.100" delay="5.00" returntohorizon="1.000" startloaded="1" />
+<input tilesize="992" tilescale="1.01008" tile0url="images/22__o_0.jpg" tile1url="images/22__o_1.jpg" tile2url="images/22__o_2.jpg" tile3url="images/22__o_3.jpg" tile4url="images/22__o_4.jpg" tile5url="images/22__o_5.jpg" />
+<altinput screensize="1025" tilesize="800" tilescale="1.01008" tile0url="images/22__o_800_0.jpg" tile1url="images/22__o_800_1.jpg" tile2url="images/22__o_800_2.jpg" tile3url="images/22__o_800_3.jpg" tile4url="images/22__o_800_4.jpg" tile5url="images/22__o_800_5.jpg" />
+<altinput screensize="800" tilesize="800" tilescale="1.01008" tile0url="images/22__o_800_0.jpg" tile1url="images/22__o_800_1.jpg" tile2url="images/22__o_800_2.jpg" tile3url="images/22__o_800_3.jpg" tile4url="images/22__o_800_4.jpg" tile5url="images/22__o_800_5.jpg" />
+<userdata title="Tour Virtual Fazenda Vale das Palmeiras" description="" author="" datetime="" copyright="Photobolha.com.br" source="" info="" comment="" />
+<control sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" />
+<sounds>
+</sounds>
+</panorama>

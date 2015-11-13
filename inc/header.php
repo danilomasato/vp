@@ -1,3 +1,4 @@
+<?php $url = "/valedaspalmeiras/web/"; ?>
 <header id="header">
 	<div class="center">
 
@@ -7,12 +8,12 @@
 
 			<nav id="nav">
 				<ul>
-					<li><a href="index.php"> Home </a><span class="dotted">....</span></li>
-					<li><a href="historia.php"> Vale das palmeiras </a><span class="dotted">.............</span></li>
-					<li><a href="fazenda.php"> FAZENDA VALE DAS PALMEIRAS </a><span class="dotted">..................</span></li>
-					<li><a href="javascript:;"> ARMAZEM VALE DAS PALMEIRAS </a><span class="dotted">..................</span></li>
+					<li><a href="<? echo $url . "home" ?>"> Home </a><span class="dotted">....</span></li>
+					<li><a href="<? echo $url . "historia" ?>"> Vale das palmeiras </a><span class="dotted">.............</span></li>
+					<li><a href="<? echo $url . "fazenda" ?>"> FAZENDA VALE DAS PALMEIRAS </a><span class="dotted">..................</span></li>
+					<li><a href="<? echo $url . "armazen" ?>"> ARMAZEM VALE DAS PALMEIRAS </a><span class="dotted">..................</span></li>
 					<li><a href="javascript:;"> BLOG DO PALMEIRA </a><span class="dotted">...........</span></li>
-					<li><a href="javascript:;" class="link-last"> CONTATO </a><span class="dotted">......</span></li>  
+					<li><a href="/contato" class="link-last"> CONTATO </a><span class="dotted">......</span></li>  
 				</ul>
 			</nav>
 			
