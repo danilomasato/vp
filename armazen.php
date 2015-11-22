@@ -14,7 +14,7 @@
 	
 	<div id="content">
 		<div class="center">
-			<div class="full fleft">
+			<div id="armazen" class="full fleft">
 
 				<!-- <div class="spacer">
 					<span>...........</span>
@@ -64,32 +64,66 @@
 				<!-- missao -->
 
 				<div class="spacer">
-					<span>.............</span>
+					<span>............................................</span>
 					<img src="assets/img/spacer.png" alt="">
-					<span>............</span>
+					<span>............................................</span>
 				</div> 
 				<!-- spacer -->
 
-				<div class="missao">
-					<div class="spacer">
-						<span class="align"> missão </span>
-						<span>...........</span>
-						<span class="align"> visão </span>
-						<span>...........</span>
-						<span class="align"> Valores </span>
-					</div> 
-					<!-- spacer -->
-					
-					<ul class="thumbs">
-						<li><img src="assets/img/missao.jpg" height="193" width="297" alt=""></li>
-						<li><img src="assets/img/missao.jpg" height="193" width="297" alt=""></li>
-						<li><img src="assets/img/missao.jpg" height="193" width="297" alt=""></li>
-					</ul>
-					<!-- thumbs -->
+				<div class="products-vale">
+					<div class="full fleft">
+						<h3>produtos organicos vale das palmeiras <i class="icon-spacer"></i></h3>
+
+						<img src="assets/img/products-vale.jpg" height="118" width="565" alt="">
+					</div>
+					<!-- full -->
 				</div>
 				<!-- missao -->
 
-				<div class="missao produtos">
+				<div class="products-vale organic-products">
+					<div class="full fleft">
+						<h3>produtos organicos do armazem  <i class="icon-spacer"></i></h3>
+
+						<ul id="nav-thumb">
+							<li>
+								<a href="javascript:;">
+									<img src="assets/img/oleo.jpg" alt="">
+									<div class="mask firstMask">
+										<span class="marca"> OLEOS </span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="assets/img/paes.jpg" alt="">
+									<div class="mask">
+										<span class="fazenda"> PAES </span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="assets/img/legumes.jpg" alt="">
+									<div class="mask">
+										<span class="armazem"> LEGUMES </span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="assets/img/feijao.jpg" alt="">
+									<div class="mask">
+										<span class="blog"> FEIJAO </span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- full -->
+				</div>
+				<!-- missao -->
+
+				<div class="missao produtos products-armazen">
 					<div class="spacer">
 						<span>...........</span>
 						<span class="align"> os produtos </span>

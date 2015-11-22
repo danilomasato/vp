@@ -185,11 +185,13 @@ Nav
 }*/
 
 #nav-thumb > li > a .mask{ 
-	float: left;
-	display: none;
+	position: absolute;
+	display: block;
 	width: 246px;
 	height: 190px;
+	background: transparent;
 }
+
 
 #nav-thumb > li:hover .mask{ 
 	display: block; 
@@ -446,9 +448,10 @@ Nav
 	margin: 0 0 0 260px;
 }
 
-/*----- nossa-historia ---------------------------------------------*/
-.oarmazen { background: rgba(155,195,34,0.5); }
-.oarmazen > h1 {
+/*----- armazen  ---------------------------------------------*/
+
+#armazen .oarmazen { background: rgba(155,195,34,0.5); }
+#armazen .oarmazen > h1 {
 	display: block;
     color: #fff;
     margin: 0px auto;
@@ -457,21 +460,21 @@ Nav
     font: normal 142px/16px "goon", Arial;
 }
 
-.oarmazen > .spacer {
+#armazen .oarmazen > .spacer {
     float: left;
     width: 578px;
     min-height: 82px;
     margin: 20px 0 0 95px;
 }
 
-.oarmazen > .spacer > span {
+#armazen .oarmazen > .spacer > span {
     float: left;
     letter-spacing: 16px;
     padding: 8px 20px;
     font: bold 80px/10px "goon", Arial;
 }
 
-.oarmazen > h2 {
+#armazen .oarmazen > h2 {
 	width: 430px;
     display: block;
     color: #fff;
@@ -483,7 +486,7 @@ Nav
     font: normal 50px/24px "goon", Arial;
 }
 
-.oarmazen > span {
+#armazen .oarmazen > span {
 	width: 430px;
     display: block;
     color: #fff;
@@ -494,24 +497,67 @@ Nav
 	font: 26px/30px goon, Arial;
 }
 
-/*----- Business-hours ---------------------------------------------*/
+#armazen .spacer {
+    float: none; 
+    width: 739px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
 
-.business-hours {
+#armazen .spacer > img { margin: 0px 20px; }
+#armazen .spacer > span { padding: 0px; font: normal 44px/60px "goon", Arial; }
+
+#armazen .products-vale > .full > h3 {
+	padding-top: 10px;
+	color: $green;
+	text-align: center;
+	font: normal 37px/60px "goon", Arial;
+}
+#armazen .products-vale img {
+	display: block;
+	width: 565px;
+	margin: 0px auto;
+	padding-right: 25px;
+}
+
+#armazen .organic-products {
+	width: 872px; 
+	margin: 0px auto;
+}
+
+#armazen .organic-products img { width: initial; padding: 0px; }
+#armazen .organic-products #nav-thumb { margin: 0px; }
+#armazen .organic-products #nav-thumb > li {
+	width: initial; 
+	height: 155px;
+}
+
+#armazen .organic-products #nav-thumb > li > a > .mask { 
+	width: 240px; 
+	height: 155px;
+}
+
+#armazen .organic-products #nav-thumb > li > a > .firstMask { 
+	width: 162px; 
+	height: 155px;
+}
+
+#armazen .business-hours {
     margin: -210px 0 0 0;
     height: 230px;
 }
 
-.time, .delivery {
+#armazen .time, .delivery {
 	float: left;
 	width: 240px;
 }
 
-.delivery { 
+#armazen .delivery { 
     float: right;
     margin: 0 70px 0 0;
 }
 
-.icon-time {
+#armazen .icon-time {
 	float: left;
 	width: 74px;
 	height: 68px;
@@ -519,7 +565,7 @@ Nav
 	background: url('../img/icons-armazen.jpg') no-repeat 0 0;
 }
 
-.icon-delivery {
+#armazen .icon-delivery {
 	float: left;
 	width: 74px;
 	height: 68px;
@@ -527,7 +573,16 @@ Nav
 	background: url('../img/icons-armazen.jpg') no-repeat -80px 0px;
 }
 
-.time > span, .delivery > span {
+#armazen .icon-spacer {
+	display: block;
+    width: 54px;
+    height: 48px;
+    margin: 0px auto;
+    margin-top: -20px;
+    background: url("../img/icons-armazen.jpg") no-repeat -153px -12px;
+}
+
+#armazen .time > span, .delivery > span {
 	float: left;
     clear: both;
 	width: 100%;
@@ -537,17 +592,18 @@ Nav
     font: 24px/24px goon, Arial;
 }
 
-.delivery span {
+#armazen .delivery span {
     width: 180px;
     margin: 0px 0 0 59px;
     font: 34px/34px goon, Arial
 }
 
-.business-hours .spacer {
+#armazen .business-hours .spacer {
     width: 560px;
     margin: 0px auto;
 }
 
+/*----- missao  ---------------------------------------------*/
 .missao > .spacer { padding: 0px 10px; width: 900px; margin: 10px 0 0 107px; } 
 
 .missao > .spacer > .align {
@@ -734,7 +790,7 @@ Nav
   		margin-top: -40px;
 	}
 
-	#navFooter, #navFooter > ul { 
+	#navFooter, #navFooter ul { 
 		float: left;
 		width: 100%;
 	}
