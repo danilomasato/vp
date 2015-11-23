@@ -89,7 +89,7 @@
 								<a href="javascript:;">
 									<img src="assets/img/oleo.jpg" alt="">
 									<div class="mask firstMask">
-										<span class="marca"> OLEOS </span>
+										<span class="marca oleos"> OLEOS </span>
 									</div>
 								</a>
 							</li>
@@ -97,7 +97,7 @@
 								<a href="javascript:;">
 									<img src="assets/img/paes.jpg" alt="">
 									<div class="mask">
-										<span class="fazenda"> PAES </span>
+										<span class="fazenda paes"> PAES </span>
 									</div>
 								</a>
 							</li>
@@ -105,7 +105,7 @@
 								<a href="javascript:;">
 									<img src="assets/img/legumes.jpg" alt="">
 									<div class="mask">
-										<span class="armazem"> LEGUMES </span>
+										<span class="armazem legumes"> LEGUMES </span>
 									</div>
 								</a>
 							</li>
@@ -113,7 +113,7 @@
 								<a href="javascript:;">
 									<img src="assets/img/feijao.jpg" alt="">
 									<div class="mask">
-										<span class="blog"> FEIJAO </span>
+										<span class="blog feijao"> FEIJAO </span>
 									</div>
 								</a>
 							</li>

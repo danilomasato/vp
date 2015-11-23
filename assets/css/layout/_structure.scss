@@ -542,6 +542,29 @@ Nav
 	height: 155px;
 }
 
+#armazen .organic-products #nav-thumb > li > a > .firstMask > .oleos { 
+	color: $green;
+	font-size: 30px;
+	margin: 22px 0px 0px 20px;
+}
+
+#armazen .organic-products #nav-thumb > li:hover > a > .firstMask > .oleos { color: #fff; }
+
+#armazen .organic-products #nav-thumb > li > a > .mask > .paes { 
+    margin: 22px 0px 0px 22px;
+    font: normal 31px/10px "gon", Arial;
+}
+
+#armazen .organic-products #nav-thumb > li > a > .mask > .legumes {
+    margin: 22px 0px 0px 128px;
+    font: normal 30px/10px "gon", Arial;
+}
+
+#armazen .organic-products #nav-thumb > li > a > .mask > .feijao {
+	margin: 103px 0px 0px 150px;
+    font: normal 32px/40px "gon", Arial;
+}
+
 #armazen .business-hours {
     margin: -210px 0 0 0;
     height: 230px;
