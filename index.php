@@ -49,7 +49,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;">
+						<a href="http://fazendavaledaspalmeiras.com.br/category/blog/">
 							<img src="assets/img/blog.jpg" alt="">
 							<div class="mask">
 								<span class="blog">Blog do <br /> Palmeira</span>
@@ -67,7 +67,7 @@
 
 				<ul id="midia">
 					<li>
-						<a href="">
+						<a href="http://fazendavaledaspalmeiras.com.br/category/blog/" target="_blank">
 							<img src="assets/img/midia-blog.jpg" height="336" width="506" alt="">
 							<div class="mask maskBlog">
 								<span class="blog">
@@ -78,7 +78,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="https://www.facebook.com/Armaz%C3%A9m-Vale-das-Palmeiras-419127181495973/?fref=ts" target="_blank">
 							<img src="assets/img/midia-fb.jpg" height="237" width="236" alt="">
 							<div class="mask maskFb">
 								<span class="blog">
@@ -88,7 +88,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="https://instagram.com/armazemvaledaspalmeiras/" target="_blank">
 							<img src="assets/img/midia-insta.jpg" height="237" width="236" alt="">
 							<div class="mask maskInsta">
 								<span class="blog">
