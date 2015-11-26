@@ -54,10 +54,12 @@ Centraliza All
 }
 
 #navFooter > ul > li { float: left; }
+#navFooter > ul > li > span { width: 634px; }
+
 #navFooter > ul > li > a, #navFooter > ul > li > span {
 	float: left;
 	height: 11px;
-	padding: 0px 4px;
+	padding: 0px 11px;
 
     color: #90B725;
     text-decoration: none;
@@ -66,8 +68,6 @@ Centraliza All
     font: normal 24px/normal "goon", Arial;
     text-rendering: optimizeLegibility;
 }
-
-#navFooter > ul > li > span { margin: 0 529px 0 0; }
 
 .cycle-slideshow { margin: 0 0 30px 0; }
 
@@ -93,7 +93,7 @@ Nav
 	height: 20px;
 	padding: 0px 4px;
 	z-index: 99999;
-	position: absolute;
+	/*position: absolute;*/
 
     color: #fff;
     text-decoration: none;
@@ -117,7 +117,7 @@ Nav
     letter-spacing: 4px;
     font-size: 17px;
     text-align: center;
-    line-height: 43px !important;
+    line-height: 3px !important;
 }
 
 #nav > ul > li:first-child > a { padding: 0px 0px; margin: 0 7px 0 0; }
@@ -134,17 +134,18 @@ Nav
 
 
 .spacer	{ 
-	float: left;
-	width: 578px;
-	min-height: 82px;
-	margin: 0 0 0 215px;
+	display: block;
+    width: 505px;
+    min-height: 82px;
+    margin: 0px auto;
 }
+
 .spacer > img { float: left; }
 .spacer > span {
 	float: left;
 	color: #5d7c14;
 	padding: 0px 20px;
-	font: normal 98px/10px "goon", Arial;
+	font: normal 98px/27px "goon", Arial;
 }
 
 .spacer > .right { margin-left: 77px; }
@@ -255,7 +256,6 @@ Nav
 #midia {
 	float: left;
 	display: block;
-	margin: 10px 0 0 0;
 }
 
 #midia > li {
@@ -750,7 +750,7 @@ Nav
 		display: none;
 		width: 100%; 
 		height: auto;
-		margin: -35px 0 20px 0 !important;
+		margin: -50px 0 20px 0 !important;
 		position: absolute;
 	    z-index: 9999;
 	    background: #482B14;
@@ -758,7 +758,16 @@ Nav
 	}
 
 	#nav > ul > li { width: 100%; clear: both; box-sizing: border-box; }
-	#nav > ul > li > a, .linkNav { float: none; }
+	#nav > ul > li .dotted { line-height: 13px !important; }
+
+	#nav > ul > li > a, .linkNav {
+	    display: block;
+	    width: 100%;
+	    float: none;
+	    height: 40px;
+	    padding: 12px 0 0 0 !important;
+	}
+
 	#nav > ul, #nav > ul > li { padding: 5px 15px; }
 	#nav > ul > li .dotted { text-align: left; overflow: hidden; }
 
@@ -823,7 +832,7 @@ Nav
   		height: auto; 
   		width: 100%;
   		display: block;
-  		padding: 8px 15px;
+  		padding: 11px 15px;
   		box-sizing: border-box;
   		border-bottom: 1px dotted #90B725;
   		font: normal 20px/normal "goon", Arial;

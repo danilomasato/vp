@@ -15,11 +15,13 @@
 	<div id="content">
 		<div class="center">
 			<div class="full fleft">
-
-				<div class="spacer">
-					<span>...........</span>
-					<img src="assets/img/spacer.png" alt="">
-					<span>...........</span>
+				
+				<div class="fleft full">
+					<div class="spacer">
+						<span>...........</span>
+						<img src="assets/img/spacer.png" alt="">
+						<span>...........</span>
+					</div>
 				</div>
 				<!-- spacer -->
 
@@ -57,11 +59,13 @@
 						</a>
 					</li>
 				</ul>
-
-				<div class="spacer">
-					<span>...........</span>
-					<!-- <img src="assets/img/spacer.png" alt=""> -->
-					<span class="right">...........</span>
+	
+				<div class="fleft full">
+					<div class="spacer">
+						<span>...........</span>
+						<!-- <img src="assets/img/spacer.png" alt=""> -->
+						<span class="right">...........</span>
+					</div>
 				</div>
 				<!-- spacer -->
 

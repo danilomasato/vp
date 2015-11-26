@@ -14,7 +14,7 @@
 				</div>
 				<!-- spacer -->
 				<ul>
-					<li><span class="linkNav">2015 Todos os direitos reservados</span></li>
+					<li><span>2015 Todos os direitos reservados</span></li>
 					<li><a href="default.html"> noticia </a></li>
 					<li><a href="default.html"> F.A.Q </a></li>
 					<li><a href="default.html"> termos </a></li>

@@ -73,7 +73,7 @@
 				</div>
 				<!-- PRODUTOS -->
 
-				<div class="missao parceiros midia">
+				<div class="missao parceiros midia fleft">
 					<div class="spacer">
 						<span>.............</span>
 						<span class="align"> na mídia </span>
