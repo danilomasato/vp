@@ -525,6 +525,21 @@ Nav
 	margin: 0px auto;
 }
 
+#armazen .organic-products .arrow{
+	position: absolute;
+    width: 91px;
+    height: 55px;
+    z-index: 9999;
+    margin: 136px 0 0 -30px;
+    background: url("../img/arrow.gif") no-repeat;
+}
+
+#armazen .organic-products .spacer > span {
+	float:none; 
+	display: block;
+	text-align: center; 
+} 
+
 #armazen .organic-products img { width: initial; padding: 0px; }
 #armazen .organic-products #nav-thumb { margin: 0px; }
 #armazen .organic-products #nav-thumb > li {
@@ -610,7 +625,7 @@ Nav
     clear: both;
 	width: 100%;
 	margin: 10px 0 0 38px;
-    color: #7FA025;
+    color: $green;
     text-align: center;
     font: 24px/24px goon, Arial;
 }
@@ -624,6 +639,72 @@ Nav
 #armazen .business-hours .spacer {
     width: 560px;
     margin: 0px auto;
+}
+
+#armazen .photoAM {
+	float: left;
+	margin: 65px 0 0 110px;
+}
+
+#armazen .thumbsAM {
+	float: left;
+    width: 420px;
+    margin: 0 0 0 30px;
+}
+
+#armazen .armazem-midia > .thumbsAM > h3 {
+	color: $green;
+    text-align: center;
+    font: normal 37px/60px "goon", Arial;
+}
+
+#armazen .armazem-midia > .thumbsAM > span  {
+    color: $green;
+    font: normal 20px/23px "goon", Arial;
+}
+
+#armazen .thumbsAM > ul > li { float: left; margin: 11px 13px 0 0; }
+    
+#armazen .work-with-us {
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+#armazen .work-with-us .center{
+	width: 250px;
+	margin: 0px auto;
+	border: 1px solid $green;
+    border-radius: 21px;
+}
+
+#armazen .work-with-us > .center > h3 {
+	display: block;
+    padding: 10px 0px;
+    
+	color: $green;
+    text-align: center;
+    font: normal 37px/40px "goon", Arial;
+}
+
+#armazen .work-with-us > span {   
+	display: block;
+    margin: 10px 0 0 0; 
+	color: $green;
+    text-align: center;
+    font: normal 27px/30px "goon", Arial;
+    
+}
+
+#contact .contact-us h2 {
+	color: $green;
+	text-align: center;
+    font: normal 37px/30px "goon", Arial;
+}
+
+#contact .contact-us .form label {
+	color: $green;
+    font: normal 27px/30px "goon", Arial;
 }
 
 /*----- missao  ---------------------------------------------*/
@@ -905,6 +986,19 @@ Nav
 		font: bold 44px/92px "goon", Arial;
 	}
 
+	.parceiros {
+		float: left;
+    	width: 100%;
+	}
+
+	.parceiros > .thumbs {     
+		margin: 0px auto;
+	    margin-top: 60px;
+	    width: 237px;
+	    float: none; 
+	}
+
+
 	.parceiros > .thumbs > li { margin: 0 0 0 0px; }
 	.spacer span:first-child { display: none; } 
 	.spacer span:last-child {
@@ -926,6 +1020,17 @@ Nav
 		width: 100%;
 		height: 300px;
 		margin: 0px;
+	}
+
+	#fazenda .tour360 {
+		display: none;
+	}
+
+	#fazenda > .parceiros > .thumbs {     
+		margin: 0px auto;
+	    margin-top: 60px;
+	    width: 237px;
+	    float: none; 
 	}
 }
 
