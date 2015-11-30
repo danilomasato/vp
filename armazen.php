@@ -63,11 +63,13 @@
 				</div>
 				<!-- missao -->
 
-				<div class="spacer">
-					<span>............................................</span>
-					<img src="assets/img/spacer.png" alt="">
-					<span>............................................</span>
-				</div> 
+				<div class="fleft full">
+					<div class="spacer">
+						<span>............................................</span>
+						<img src="assets/img/spacer.png" alt="">
+						<span>............................................</span>
+					</div> 
+				</div>
 				<!-- spacer -->
 
 				<div class="products-vale">
@@ -83,6 +85,8 @@
 				<div class="products-vale organic-products">
 					<div class="full fleft">
 						<h3>produtos organicos do armazem  <i class="icon-spacer"></i></h3>
+						
+						<i class="arrow"></i>
 
 						<ul id="nav-thumb">
 							<li>
@@ -120,79 +124,56 @@
 						</ul>
 					</div>
 					<!-- full -->
-				</div>
-				<!-- missao -->
 
-				<div class="missao produtos products-armazen">
-					<div class="spacer">
-						<span>...........</span>
-						<span class="align"> os produtos </span>
-						<span>...........</span>
-					</div> 
+					<div class="fleft full">
+						<div class="spacer">
+							<span>.................................................</span>
+						</div> 
+					</div>
 					<!-- spacer -->
-					
-					<ul class="thumbs">
-						<li><img src="assets/img/osprodutos.jpg" height="128" width="598" alt=""></li>
-					</ul>
-					<!-- thumbs -->
-				</div>
-				<!-- produtos -->
 
-				<div class="missao cronologia">
-					<div class="spacer">
-						<span>...........</span>
-						<span class="align"> cronologia</span>
-						<span>...........</span>
-					</div> 
-					<!-- spacer -->
-					
-					<ul class="thumbs">
-						<li><img src="assets/img/cronologia.jpg" height="173" width="830" alt=""></li>
-					</ul>
-					<!-- thumbs -->
 				</div>
-				<!-- cronologia -->
+				<!-- organic-products -->
 
-				<div class="missao parceiros">
-					<div class="spacer">
-						<span>...........</span>
-						<span class="align"> parceiros</span>
-						<span>...........</span>
-					</div> 
-					<!-- spacer -->
-					
-					<ul class="thumbs">
-						<li>
-							<img src="assets/img/parceiros1.jpg" height="178" width="217" alt="">
-							<span>
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-							</span>
-						</li>
-						<li>
-							<img src="assets/img/parceiros2.jpg" height="169" width="217" alt="">
-							<span>
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-							</span>
-						</li>
-						<li>
-							<img src="assets/img/parceiros3.jpg" height="178" width="217" alt="">
-							<span>
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-								NBDSFN BSDKJK SKFDFDD FDDFGDFDGDF XCVXV ASDDFSF
-							</span>
-						</li>
-					</ul>
-					<!-- thumbs -->
+				
+
+				<div class="armazem-midia">
+					<div class="photoAM">
+						<img src="assets/img/armazem-na-midia1.jpg" height="151" width="324" alt="">
+					</div>
+					<!-- photo -->
+
+					<div class="thumbsAM">
+						<h3> Armazem na Midia </h3>
+						<span>
+							xcvc ccvv  vhghnN  nfhdvc  djfkjs fdjfghfkjkjsjkd fjhgsdfdkjsd ffdffd hgfdfgg
+							xcvc ccvv  vhghnN  nfhdvc  djfkjs fdjfghfkjkjsjkd fjhgsdfdkjsd ffdffd hgfdfgg
+						</span>
+
+						<ul>
+							<li><img src="assets/img/thumbAM.jpg" height="117" width="89" alt=""></li>
+							<li><img src="assets/img/thumbAM.jpg" height="117" width="89" alt=""></li>
+							<li><img src="assets/img/thumbAM.jpg" height="117" width="89" alt=""></li>
+						</ul>
+					</div>
+					<!-- thumbsAM -->
+
+					<div class="work-with-us">
+						<div class="center">
+							<h3>
+								quer ter seu produto <br>
+								em nossas prateleiras?
+							</h3>
+						</div>
+						<!-- center -->
+						<span>
+							envie seu e-mail para <br>
+							armazem@valedaspalmeiras.com.br
+						</span>
+					</div>
+					<!-- work-with-us -->
 				</div>
-				<!-- PRODUTOS -->
+				<!-- armazem-midia -->
 
 			</div>
 			<!-- full -->
@@ -200,16 +181,6 @@
 		<!-- center -->
 	</div>
 	<!-- content -->
-	
-	<!-- Btn Modal -->
-	<!-- <a href="javascript:;" class="btn fleft" data-reveal-id="myModal"> modal </a> -->
-
-<!--   <div id="myModal" class="reveal-modal">
-       <h1 class="title">Title</h1>
-       <a class="close-reveal-modal">&#215;</a>
-
-       <table id="tableDDD" class="dataTable"></table>
-  </div> -->
 
 <?php include "inc/footer.php" ?>
 </body>

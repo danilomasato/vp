@@ -13,7 +13,7 @@
 					<li><a href="<? echo $url . "fazenda" ?>"> FAZENDA VALE DAS PALMEIRAS </a><span class="dotted">..................</span></li>
 					<li><a href="<? echo $url . "armazen" ?>"> ARMAZEM VALE DAS PALMEIRAS </a><span class="dotted">..................</span></li>
 					<li><a href="http://fazendavaledaspalmeiras.com.br/category/blog/" target="_blank"> BLOG DO PALMEIRA </a><span class="dotted">...........</span></li>
-					<li><a href="/contato" class="link-last"> CONTATO </a><span class="dotted">......</span></li>  
+					<li><a href="<? echo $url . "contato" ?>" class="link-last"> CONTATO </a><span class="dotted">......</span></li>  
 				</ul>
 			</nav>
 			

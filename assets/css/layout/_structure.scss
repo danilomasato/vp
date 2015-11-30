@@ -957,7 +957,13 @@ Nav
   		bottom: 7px;
 	}
 
-	.missao > .thumbs { margin: 0px;  margin-top: 60px; }
+	.missao > .thumbs { 
+		margin: 0px auto;
+    	margin-top: 60px;
+    	width: 297px;
+    	float: none;
+	}
+	
 	.missao .thumbs > li img {
 	  width: 100%;
 	  height: auto;
@@ -1032,13 +1038,27 @@ Nav
 	    width: 237px;
 	    float: none; 
 	}
+
+	#contact .contact-us { padding: 0px 20px; }
+
+	#midia {
+	    float: none; 
+	    display: block;
+	    width: 246px;
+	    margin: 0px auto;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 490px){ 
+
+	#midia { width: 494px; }
+	#midia > li { width: 246px; }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px){
 	* { box-sizing: border-box; }
 
 	#content { padding: 0px; }
-	#midia > li, #midia>li>a img { width: initial; }
 }
 
 @media screen and (max-width: 480px) {

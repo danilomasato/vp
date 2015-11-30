@@ -14,7 +14,7 @@
 	
 	<div id="content">
 		<div class="center">
-			<div class="full fleft">
+			<div id="fazenda" class="full fleft">
 
 				<div class="missao produtos">
 					<div class="spacer">
@@ -123,13 +123,13 @@
 	
 	<!-- Btn Modal -->
 	<!-- <a href="javascript:;" class="btn fleft" data-reveal-id="myModal"> modal </a> -->
-
+<!-- 
   <div id="myModal" class="reveal-modal">
        <h1 class="title">Title</h1>
        <a class="close-reveal-modal">&#215;</a>
 
        <table id="tableDDD" class="dataTable"></table>
-  </div>
+  </div> -->
 
 <?php include "inc/footer.php" ?>
 </body>

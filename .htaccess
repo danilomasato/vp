@@ -6,6 +6,8 @@
   RewriteRule ^historia/?$ /valedaspalmeiras/web/historia.php [NC,L]
   RewriteRule ^fazenda/?$ /valedaspalmeiras/web/fazenda.php [NC,L]
   RewriteRule ^armazen/?$ /valedaspalmeiras/web/armazen.php [NC,L]
+  RewriteRule ^contato/?$ /valedaspalmeiras/web/contato.php [NC,L]
+
   # Página de exibição de um produto
   RewriteRule ^produtos/([a-z0-9-]+)/([0-9]+)/?$ /produtos.php?id=$2&nome=$1 [NC]
 </IfModule>
